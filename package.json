@@ -1,0 +1,25 @@
+{
+  "name": "pintores_mvc",
+  "version": "1.0.0",
+  "description": "Creacion de un sitio web con el MVC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sara Soto Chavarria",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarasoto/sitio-web-dinamico-MVC-pintores-sarasoto-4E.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarasoto/sitio-web-dinamico-MVC-pintores-sarasoto-4E/issues"
+  },
+  "homepage": "https://github.com/sarasoto/sitio-web-dinamico-MVC-pintores-sarasoto-4E#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.9.16"
+  }
+}
