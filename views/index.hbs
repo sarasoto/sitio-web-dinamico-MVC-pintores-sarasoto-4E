@@ -1,0 +1,47 @@
+{{>header}}
+{{>nav}}
+<br>
+<div class="container" >
+{{#if pintores}}
+    <table class="table  table-hover" align="left"  >
+       <thead>
+       <tr>
+           <th>ID</th>
+           <th>Pintor</th>
+           <th>Nombre</th>
+            <th>Nacimiento</th>
+           <th>Fallecimiento</th>
+           <th>Muerte</th>
+           <th>Nacionalidad</th>
+           <th>Corriente</th>
+           <th>Pinturas</th>
+           <th>Dato</th>
+           <th>Frase</th>
+           <th>Pintura</th>
+       </tr>
+       </thead>
+        <tbody>
+        {{#each pintores}}
+        <tr>
+            <td>{{_id}}</td>
+            <td ><img src="../images/{{pintor}}" alt="" class="tablam"></td>
+            <td>{{nombre}}</td>
+            <td>{{nacimiento}}</td>
+            <td>{{fallecimiento}}</td>
+            <td>{{muerte}}</td>
+            <td>{{nacionalidad}}</td>
+            <td>{{corriente}}</td>
+            <td>{{pinturas}}</td>
+            <td>{{dato}}</td>
+            <td>{{frase}}</td>
+            <td><img src="../images/{{pintura}}" alt="" class="tablam" ></td>
+        </tr>
+        {{/each}}
+        </tbody>
+    </table>
+{{else}}
+    <div>No se encuentran pintores</div>
+{{/if}}
+</div>
+<script src="../scripts/funciones.js"></script>
+{{>footer}}
