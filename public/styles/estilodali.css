@@ -1,0 +1,52 @@
+body{
+    background-image: url("../images/fondo4.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.title{
+    background-color: #FDEBD0 ;
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@font-face{
+    font-family: 'frase';
+    src: url(../images/frase1.ttf)
+}
+.frase {
+    font-family: frase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+}
+.casa{
+    width: 70px;
+    float: right;
+    margin-left: 100px;
+}
+.logo{
+    width: 70px;
+    float: left;
+
+}
+.izquierda{
+     width: 100px;
+     float: right;
+     margin-right: 35px;
+ }
+.derecha{
+    width: 100px;
+    float: left;
+    margin-left: 35px;
+}
+.principal{
+    display:block;
+    margin:auto;
+    width: 500px;
+    height: 500px;
+}

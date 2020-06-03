@@ -1,0 +1,21 @@
+body{
+    background-image: url("../images/margen.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+h1{
+    font-size: 300%;
+  font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-align: center;
+    color: #D2B4DE ;
+}
+h2{
+    font-size: 300%;
+    font-weight: bold;
+    font-family: "Arial Narrow";
+    text-align: center;
+    color: #E59866 ;
+}
